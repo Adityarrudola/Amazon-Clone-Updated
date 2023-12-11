@@ -1,0 +1,126 @@
+.fasion-section,
+.toys-section,
+.petcare-section,
+.cosmetics-section,
+.phone-section,
+.furniture-section,
+.health-section,
+.cloth-section {
+  display: none;
+  top: 29%;
+  box-shadow: rgba(0, 0, 0, 0.31) 5px 5px 10px;
+  border-radius: 5px;
+  left: 25%;
+  position: absolute;
+  background-color: rgb(226, 231, 230);
+  padding: 15px 25px;
+}
+.visible {
+  display: grid;
+}
+.fasion-back,
+.toys-back,
+.petcare-back,
+.cosmetics-back,
+.phone-back,
+.furniture-back,
+.health-back,
+.cloth-back {
+  cursor: pointer;
+  width: fit-content;
+  border: none;
+  padding: 8px 16px;
+  font-size: 16px;
+  background: white;
+  border-radius: 5px;
+  transition: all 0.15s ease 0s;
+}
+.fasion-back:hover,
+.toys-back:hover,
+.petcare-back:hover,
+.cosmetics-back:hover,
+.phone-back:hover,
+.furniture-back:hover,
+.health-back:hover,
+.cloth-back:hover{
+  opacity: 0.7;
+}
+.fasion-section h3,
+.toys-section h3,
+.petcare-section h3,
+.cosmetics-section h3,
+.phone-section h3,
+.furniture-section h3,
+.health-section h3,
+.cloth-section h3 {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.fasion-container,
+.toys-container,
+.petcare-container,
+.cosmetics-container,
+.phone-container,
+.furniture-container,
+.health-container,
+.cloth-container {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 360px 360px;
+  gap: 15px 15px;
+}
+.item {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.item-info {
+  line-height: 23px;
+}
+p.heading {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+p.subheading {
+  text-align: center;
+  width: 80%;
+  font-size: 16px;
+  margin: auto;
+}
+.fasion-section img,
+.toys-section img,
+.petcare-section img,
+.cosmetics-section img,
+.phone-section img,
+.furniture-section img,
+.health-section img,
+.cloth-section img {
+  width: 200px;
+  height: 170px;
+}
+p.price {
+  text-align: center;
+}
+span {
+  opacity: 0.8;
+}
+.item-info button {
+  display: flex;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 10px;
+  font-size: 16px;
+  margin: 8px auto auto;
+  cursor: pointer;
+  background-color: rgb(226, 231, 230);
+  transition: all 0.15s ease 0s;
+}
+.item-info button:hover {
+  background-color: rgb(216, 216, 216);
+} 
